@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 
 def training():
     # Import data dari CSV
-    data = pd.read_csv('../datasets/testdataset.csv')
+    data = pd.read_csv('modules/datasets/testdataset.csv')
     data.head()
 
     # Konversi tiap value kedalam bentuk angka
