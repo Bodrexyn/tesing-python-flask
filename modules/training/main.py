@@ -70,4 +70,6 @@ def training():
     # # print(accuracy_score(y_train_smote,y_predict))
     # pd.crosstab(y_train_smote,y_predict)
 
+    print("training completed")
+    
     return [X_train, X_test, y_train, y_test]
